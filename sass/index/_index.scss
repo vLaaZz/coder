@@ -1,0 +1,50 @@
+main {
+    padding: 50px;
+}
+
+.portada img {
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 100px;
+    
+}
+
+
+body {
+    background-image: url(../images/fondo-negro-textura-tela.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo-titulo {
+    backdrop-filter: blur(2px) saturate(180%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(41, 44, 49, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin: 10% 10% 10% 10%;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container_info_comercio_parrafo {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,23 @@
+/*RESETEO INDEX*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    transition: .5s;
+}
+
+a:active {
+    color: black;
+}

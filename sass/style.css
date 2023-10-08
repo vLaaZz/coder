@@ -1,0 +1,341 @@
+/*Header*/
+#header nav {
+  display: flex;
+  background-color: rgb(131, 136, 136);
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+  padding: 20px 20px 20px 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header nav {
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+  background-color: rgba(50, 52, 55, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.logo_IMG {
+  width: 230px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  #header nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(131, 136, 136);
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+  }
+}
+/*RESETEO INDEX*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* a {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+a:active {
+  color: black;
+}
+
+/* Footer */
+#footer {
+  background-color: grey;
+  padding: 0 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer_IMG img {
+  width: 380px;
+  height: 270px;
+}
+
+.footer_links ul li a {
+  font-size: 23px;
+}
+
+.footer_links ul li {
+  margin-top: 12px;
+  list-style: none;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_iframe_mapa {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  #footer {
+    flex-direction: column;
+  }
+}
+.conocenos-full1 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 700px 700px;
+  grid-template-rows: 100px 710px;
+  grid-template-areas: "conocenos-titulo1 conocenos-titulo1" "conocenos-img-titulo1 conocenos-parrafo1";
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+  margin-bottom: 700px;
+  margin-top: 700px;
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+  background-color: rgba(41, 44, 49, 0.75);
+}
+
+.conocenos-titulo1 {
+  grid-area: conocenos-titulo1;
+  text-align: center;
+  color: white;
+  font-size: 90px;
+}
+
+.conocenos-img-titulo1 {
+  grid-area: conocenos-img-titulo1;
+  width: 700px;
+  height: 700px;
+  border-radius: 15px;
+}
+
+.conocenos-parrafo1 {
+  grid-area: conocenos-parrafo1;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .conocenos-full1 {
+    flex-direction: column;
+  }
+}
+#container-carrusel {
+  width: 100%;
+}
+
+#container-carrusel {
+  position: relative;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 150px;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.carrusel-top {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.foto-carrusel {
+  width: 100%;
+  height: 100%;
+}
+
+.foto-carrusel img {
+  width: 100%;
+  height: 100%;
+}
+
+.lista-carrusel {
+  color: black;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 50px;
+  padding: 25px;
+}
+
+/* Estilo Historia Titulo y Parrafo */
+.historia-cardales {
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+  background-color: rgba(41, 44, 49, 0.75);
+  border: 1px solid white;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border-radius: 20px;
+}
+
+.titulo-historia {
+  color: white;
+  font-size: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto-historia {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.historia-cardales {
+  padding: 5px;
+}
+
+.ejemplos-historia {
+  padding: 80px;
+}
+
+.container-full-productos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 5px;
+}
+
+.card {
+  border: 5px solid white;
+  padding: 10px;
+  border-radius: 15px;
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+  background-color: rgba(41, 44, 49, 0.75);
+}
+
+.img-card {
+  height: 250px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.texto-card {
+  color: white;
+}
+
+.form {
+  max-width: 700px;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 0 auto;
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+  background-color: rgba(41, 44, 49, 0.75);
+  margin-bottom: 150px;
+  margin-top: 140px;
+}
+
+.form-container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_input {
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.form-mensaje {
+  resize: none;
+  padding-bottom: 70px;
+  margin-bottom: 12px;
+}
+
+.form_rta {
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-titulo {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+}
+
+main {
+  padding: 50px;
+}
+
+.portada img {
+  width: 100%;
+  margin: 0 auto;
+  height: 800px;
+  margin-top: 150px;
+  padding: 20px;
+  border-radius: 100px;
+}
+
+body {
+  background-image: url(../images/fondo-negro-textura-tela.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.parrafo-titulo {
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+  background-color: rgba(41, 44, 49, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin: 10% 10% 10% 10%;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container_info_comercio_parrafo {
+  font-size: 36px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */

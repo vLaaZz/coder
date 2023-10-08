@@ -1,0 +1,28 @@
+.container-full-productos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 5px;
+}
+.card {
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(2px) saturate(180%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(41, 44, 49, 0.75);
+
+}
+.img-card {
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.texto-card {
+    color: white;
+}

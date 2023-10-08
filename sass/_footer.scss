@@ -1,0 +1,38 @@
+/* Footer */
+
+#footer {
+    background-color: grey;
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_IMG img {
+    width: 380px;
+    height: 270px;
+}
+
+.footer_links ul li a {
+    font-size: 23px;
+}
+
+.footer_links ul li {
+    margin-top: 12px;
+    list-style: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_iframe_mapa {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+@media (max-width:1200px) {
+    #footer {
+        flex-direction: column;
+    }
+}

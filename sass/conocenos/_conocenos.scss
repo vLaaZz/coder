@@ -1,0 +1,42 @@
+.conocenos-full1 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 100px 710px;
+    grid-template-areas:
+    "conocenos-titulo1 conocenos-titulo1"
+    "conocenos-img-titulo1 conocenos-parrafo1"
+    ;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    margin-bottom: 700px;
+    margin-top: 700px;
+    backdrop-filter: blur(2px) saturate(180%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(41, 44, 49, 0.75);
+}
+
+.conocenos-titulo1 {
+    grid-area: conocenos-titulo1;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+}
+.conocenos-img-titulo1 {
+    grid-area: conocenos-img-titulo1;
+    width: 700px;
+    height: 700px;
+    border-radius: 15px;
+}
+.conocenos-parrafo1 {
+    grid-area: conocenos-parrafo1;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .conocenos-full1 {
+        flex-direction: column;
+    }
+}
