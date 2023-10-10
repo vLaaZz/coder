@@ -35,8 +35,10 @@
     font-size: 30px;
 }
 
-@media screen and (max-width: 700px) {
-    .conocenos-full1 {
-        flex-direction: column;
+@media (max-width: 1600px) {
+    .conocenos-full1 .conocenos-titulo1 .conocenos-parrafo1 .conocenos-img-titulo1 {
+        img {
+            width: 100% !important;
+        }
     }
 }

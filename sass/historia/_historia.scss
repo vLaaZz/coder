@@ -59,3 +59,12 @@
 .ejemplos-historia {
     padding: 80px;
 }
+
+@media (max-width:1600px) {
+    .historia-cardales {
+        justify-content: center;
+        .h1-historia {
+            width: 100% !important;
+        }
+    }
+}

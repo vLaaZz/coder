@@ -15,7 +15,6 @@
     backdrop-filter: blur(2px) saturate(180%);
     -webkit-backdrop-filter: blur(2px) saturate(180%);
     background-color: rgba(41, 44, 49, 0.75);
-
 }
 .img-card {
     height: 250px;
@@ -25,4 +24,13 @@
 
 .texto-card {
     color: white;
+}
+
+@media (max-width: 1600px) {
+    .container-full-productos {
+        justify-content: center;
+        .card {
+            margin: 20px;
+        }
+    }
 }

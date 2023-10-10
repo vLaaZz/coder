@@ -48,3 +48,9 @@ h2 {
     color: white;
     margin-bottom: 15px;
 }
+
+@media (max-width: 1600px) {
+    .parrafo-titulo .titulo-bienvenida .container_info_comercio_parrafo  {
+        justify-content: center;
+    }
+}
