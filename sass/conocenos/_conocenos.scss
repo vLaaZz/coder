@@ -1,8 +1,6 @@
 .conocenos-full1 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 700px 700px;
-    grid-template-rows: 100px 710px;
     grid-template-areas:
     "conocenos-titulo1 conocenos-titulo1"
     "conocenos-img-titulo1 conocenos-parrafo1"
@@ -24,8 +22,8 @@
 }
 .conocenos-img-titulo1 {
     grid-area: conocenos-img-titulo1;
-    width: 700px;
-    height: 700px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
 }
 .conocenos-parrafo1 {
